@@ -1,4 +1,4 @@
-{% set version = '0.4.3' %}
+{% set version = "0.4.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggnewscale_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggnewscale/ggnewscale_{{ version }}.tar.gz
-  sha256: d944b65255fb49bd272eaef7e216649a35de61d3c08908d77a0233d3088fd570
+  sha256: cfb1c47a6a91dbc47accf621ec0e2f20b1381dfe74810558db634b1f30e45f35
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -41,7 +41,7 @@ about:
   summary: Use multiple fill and colour scales in 'ggplot2'.
   license_family: GPL3
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
