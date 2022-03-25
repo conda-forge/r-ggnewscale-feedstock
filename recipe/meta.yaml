@@ -1,4 +1,4 @@
-{% set version = "0.4.6" %}
+{% set version = "0.4.7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggnewscale_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggnewscale/ggnewscale_{{ version }}.tar.gz
-  sha256: 63ff2e8b72f42633074aa28354a2c8e3e1bbea810dc081d1152ed5e4cd86b823
+  sha256: 6b12ac9947fd3161941b2bb85c00a18d5fc794ad8b1e22a6f37f63ac8d3f0a81
 
 build:
   merge_build_host: true  # [win]
