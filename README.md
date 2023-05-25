@@ -1,11 +1,11 @@
-About r-ggnewscale
-==================
+About r-ggnewscale-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggnewscale-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=ggnewscale
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggnewscale-feedstock/blob/main/LICENSE.txt)
 
 Summary: Use multiple fill and colour scales in 'ggplot2'.
 
