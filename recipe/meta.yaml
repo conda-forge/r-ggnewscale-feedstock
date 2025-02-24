@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggnewscale_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggnewscale/ggnewscale_{{ version }}.tar.gz
-  sha256: b7f0dcb38d0e8cb4179d92f38b20489905ceb2a9602b68e2c72997d795c4df2d
+  sha256: cd50179f406bb2f009e85cdde72899a176181bdecfb41dfca4de3d74af026e92
 
 build:
   number: 0
